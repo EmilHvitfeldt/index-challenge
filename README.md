@@ -1,1 +1,26 @@
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
 # index-challenge
+
+This repository includes 10 different *index* data sets. The folder
+*data-raw* has the raw unedited file downloaded from the source. The
+folder *data-clean* includes csv files with two columns, name of country
+and score, with original ordering and column names.
+
+# Sources
+
+  - [Gay Happiness
+    Index](https://www.planetromeo.com/en/care/gay-happiness-index/)
+  - [Happy Planet Index](https://happyplanetindex.org/)
+  - [Index of Economic Freedom](https://www.heritage.org/index/)
+  - [The Legatum Prosperity Index](https://www.prosperity.com/)
+  - [Global Gender Gap
+    Index](http://reports.weforum.org/global-gender-gap-report-2016/rankings/)
+  - [Human Freedom Index](https://www.cato.org/human-freedom-index)
+  - [Big Mac
+    Index](https://www.economist.com/news/2018/07/11/the-big-mac-index)
+  - [Social Progress Index](https://www.socialprogressindex.com/)
+  - [Corruption Perception
+    Index](https://www.transparency.org/news/feature/corruption_perceptions_index_2017)
+  - [Fragile States Index](http://fundforpeace.org/fsi/)
