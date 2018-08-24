@@ -6,6 +6,7 @@ read_csv("data-raw/big-mac-index_2018_raw.csv") %>%
   write_csv("data-clean/big-mac-index_2018_clean.csv")
 
 readxl::read_xlsx("data-raw/corruption-perception-index_2017_raw.xlsx", skip = 2) %>%
+  filter(!is.na(ISO3)) %>%
   select(Country, `CPI Score 2017`) %>%
   write_csv("data-clean/corruption-perception-index_2017_clean.csv")
 
